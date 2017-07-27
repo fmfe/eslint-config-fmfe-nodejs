@@ -1,13 +1,14 @@
 # eslint-config-fmfe-nodejs
 
-ESLint configuration of [Followme Frontend Team](https://github.com/fmfe) Node.js group, base on [standard](https://github.com/standard/standard).
+ESLint configuration of [Followme Frontend Team](https://github.com/fmfe)
+Node.js group, base on [standard](https://github.com/standard/standard).
 
 ## usage
 
 edit configuration file:
 
 ```
-$ vi .eslintrc.js
+$ touch .eslintrc.js
 ```
 ```javascript
 module.exports = {
@@ -18,12 +19,12 @@ module.exports = {
 ## install
 
 ```
-$ npm install eslint eslint-config-fmfe-nodejs --save-dev
+$ npm install eslint-config-fmfe-nodejs -D
 $ ./node_modules/.bin/eslint *.js
 ```
 or
 ```
-$ sudo npm install eslint eslint-config-fmfe-nodejs -g
+$ npm install eslint eslint-config-fmfe-nodejs -g
 $ eslint *.js
 ```
 
@@ -36,8 +37,6 @@ $ eslint *.js
     *   缩进使用 4 个空格
     *   要求使用 let 或 const 而不是 var
     *   优先使用 const，其次才是 let
-
-
 
 ## contributing
 1. Fork it
