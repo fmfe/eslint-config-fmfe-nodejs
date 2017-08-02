@@ -12,19 +12,19 @@ $ touch .eslintrc.js
 ```
 ```javascript
 module.exports = {
-  extends: 'fmfe-nodejs',
+  extends: '@fmfe/fmfe-nodejs',
 };
 ```
 
 ## install
 
 ```
-$ npm install eslint-config-fmfe-nodejs -D
+$ npm install eslint @fmfe/eslint-config-fmfe-nodejs -D
 $ ./node_modules/.bin/eslint *.js
 ```
 or
 ```
-$ npm install eslint eslint-config-fmfe-nodejs -g
+$ npm install eslint @fmfe/eslint-config-fmfe-nodejs -g
 $ eslint *.js
 ```
 

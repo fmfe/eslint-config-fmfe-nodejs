@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-fmfe-nodejs",
+  "name": "@fmfe/eslint-config-fmfe-nodejs",
   "version": "0.0.1",
   "description": "ESLint configuration of Followme Frontend Team Node.js group Edit",
   "main": "index.js",
